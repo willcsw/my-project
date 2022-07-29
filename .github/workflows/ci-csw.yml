@@ -48,7 +48,7 @@ jobs: #jobs tp be exeucuted
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4 #source:https://github.com/mr-smithers-excellent/docker-build-push
       with:
-        image: nanajanashia/demo-app
+        image: willcsw/my-demo
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
